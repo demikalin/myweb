@@ -13,20 +13,17 @@ body {
   margin: 0;
 }
 
-/* Style the header */
 .header {
   background-color: ##e6f2ff;
   padding: 20px;
   text-align: center;
 }
 
-/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
 
-/* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
@@ -36,75 +33,41 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
 .topnav a:hover {
   background-color: #ffffff;
   color: black;
 }
 
-/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
   padding: 10px;
 }
 
-/* Left and right column */
-.column.side {
-  background-color: #ccffee;
-  text-align: center;
-  width: 25%;
-}
-
-/* Middle column */
 .column.middle {
-  background-color: #80ffd4;
+  background-color: #f2f2f2;
   text-align: center;
-  width: 50%;
+  width: 100%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>Header</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
+  <h1>가츠동</h1>
+  <p>그릇에 담은 밥 위에 돈가스를 얹은 일본의 덮밥 요리</p>
 </div>
 
 <div class="topnav">
-  <a href="../index.html">메인</a>
-  <a href="../html/jaeryo.html">재료</a>
-  <a href="../html/jyori.html">조리</a>
+  <a href="../index.html">0.메인</a>
+  <a href="../html/jaeryo.html">1.재료</a>
+  <a href="../html/jyori.html">2.조리</a>
 </div>
 
-<div class="row"> 
-  <div class="column side">
-    <h2>ㅁㄴㅇㄹ</h2>
-  </div>
-
-  <div class="column middle">
-    <h2>마물마물</h2>
-    <img src="./image/is.gif" alt="2">
-  </div>
-  
-  <div class="column side">
-    <h2>ㅁㄹㅇㄴ</h2>
-
-  </div>
+<div class="column middle">
+  <h2>마무리</h2>
 </div>
+
   
 </body>
 </html> 
