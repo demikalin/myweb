@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-color: ##e6f2ff;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
 }
@@ -44,16 +44,15 @@ body {
 }
 
 .column.side {
-  background-color: #ccffee;
   text-align: center;
   width: 25%;
 
 }
 
 .column.middle {
-  background-color: #80ffd4;
   text-align: center;
   width: 50%;
+  background-color: #f2f2f2;  
 }
 
 @media screen and (max-width: 600px) {
@@ -71,24 +70,23 @@ body {
 </div>
 
 <div class="topnav">
-  <a href="html/jaeryo.html">1.재료</a>
-  <a href="html/jyori.html">2.조리</a>
-  <a href="html/mamuri.html">3.마무리</a>
+  <a href="html/syealmong.html">1.정보</a>
+  <a href="html/recipe.html">2.레시피</a>
 </div>
 
 
 <div class="column side">
-  <h2 style="font-size:130%;">만드는 법!</h2>
-  <a href="html/jaeryo.html">재료부터 알아보자!</a>
+  <p onclick="document.getElementById('demo').innerHTML = Date()"></p>
 </div>
   
 <div class="column middle">
-  <img src="image/ex.png" alt="완성본">
+  <img src="image/ex.PNG" alt="완성본">
 </div>
   
 <div class="column side">
-  <h2 style="font-size:130%;">출저</h2>
-  <a href="https://blog.naver.com/babo890327/221442612341">https://blog.naver.com/babo890327/221442612341</a>
+  <button type="button" onclick="document.getElementById('demo').style.display='block'">출저</button>
+  <p id="demo" style="display:none" style="font-size:90%;">https://blog.naver.com/babo890327/221442612341<br><br>https://namu.wiki/w/%EA%B0%80%EC%B8%A0%EB%8F%99</p>
+
 </div>
 
   
